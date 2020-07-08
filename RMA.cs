@@ -19,7 +19,7 @@ namespace GitHubTest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("RMA 1");
+            MessageBox.Show("RMA 1 Form Button. Today is " + DateTime.Now.ToShortDateString());
         }
     }
 }
